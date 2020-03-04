@@ -1,0 +1,47 @@
+---
+title: "LLAP Workshop 2020"
+description: |
+  Outline for Technical Track
+author:
+  - name:
+    url: 
+    affiliation: 
+    affiliation_url:
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+## Module 1: Getting our hands dirty
+
+Review of data structures with demonstration of data import, processing and exploration.
+
+- Basic io with text, spreadsheet, (SQL?)
+- Inspection of data structure
+- Overview of tools (e.g. tidyverse, pandas)
+- Demo includes processing strings (intro to regex), renaming columns, selecting, filtering
+
+## Module 2: Summarizing and Visualizing Data
+
+- Overview of tools, 
+- Presentation best practices
+- Demonstration includes grouped summaries, various types of visualizations
+
+
+## Module 3: Analysis Basics
+
+- Thinking about analysis possibilities
+- Demonstration of a analysis deepdive
+  - This could just be no more than standard regression with interpretation, prediction/visualization, etc.
+
+
+
+
+
+
+
